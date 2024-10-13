@@ -56,5 +56,5 @@ jobs:
 
     - name: Publish to PyPI
       env:
-        MATURIN_PYPI_TOKEN: ${{ secrets.PYPI_SECRET }}
+        MATURIN_PYPI_TOKEN: ${{ secrets.PYPI_API_KEY }}
       run: maturin publish

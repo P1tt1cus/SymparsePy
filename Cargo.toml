@@ -1,0 +1,15 @@
+[package]
+name = "symparsepy"
+version = "0.1.1"
+edition = "2021"
+
+[dependencies]
+pdb = "0.8.0"
+pyo3 = { version = "0.22.4", features = ["extension-module"] }
+regex = "1.11.0"
+
+[lib]
+crate-type = ["cdylib"]
+
+[package.metadata.maturin]
+name = "symparsepy"

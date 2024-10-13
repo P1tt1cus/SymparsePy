@@ -4,8 +4,11 @@ on:
   push:
     branches:
       - '**'
-  release:
-    types: [created]
+  pull_requests:
+    branches:
+      - main
+    types:
+      - closed
 
 jobs:
   build:
@@ -33,6 +36,7 @@ jobs:
       run: maturin build
 
   publish:
+    if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
 

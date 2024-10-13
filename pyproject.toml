@@ -8,7 +8,7 @@ requires-python = ">=3.12"
 description = "symparsepy is a Rust-based Python package for parsing symbols from PDB files. This package leverages the pyo3 library to create Python bindings for Rust code."
 readme = "README.md"
 license = {text = "MIT License"}
-version = "0.1.0"
+version = "0.1.1"
 
 [project.urls]
 Repository = "https://github.com/P1tt1cus/SymparsePy"

@@ -89,8 +89,8 @@ To contribute to this project, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/symparsepy.git
-    cd symparsepy
+    git clone https://github.com/P1tt1cus/SymparsePy
+    cd SymparsePy
     ```
 
 2. Install the development dependencies:
@@ -100,12 +100,7 @@ To contribute to this project, follow these steps:
 
 3. Build the project:
     ```sh
-    maturin develop
-    ```
-
-4. Run tests:
-    ```sh
-    pytest
+    maturin build
     ```
 
 ## License
